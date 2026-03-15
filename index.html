@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - MindLockrX</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #5a667d;
+      --line: #d9e1ef;
+      --accent: #1f5eff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(180deg, #eef3ff 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(960px, calc(100% - 32px));
+      margin: 32px auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(20, 32, 61, 0.08);
+    }
+
+    h1, h2, h3 {
+      line-height: 1.25;
+      margin-top: 0;
+      color: #0f1b33;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      font-size: 1.45rem;
+    }
+
+    h3 {
+      margin-top: 1.25rem;
+      font-size: 1.1rem;
+    }
+
+    p, li {
+      color: var(--text);
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .note {
+      border-left: 4px solid var(--accent);
+      background: #f3f7ff;
+      padding: 14px 16px;
+      border-radius: 10px;
+      color: #17305f;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    code {
+      background: #eef2fb;
+      padding: 0.12rem 0.35rem;
+      border-radius: 6px;
+      font-family: Consolas, monospace;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding: 22px;
+        margin: 16px auto;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy for MindLockrX</h1>
+    <p class="meta">Last updated: March 15, 2026</p>
+
+    <p>
+      This Privacy Policy explains how MindLockrX collects, uses, stores, and discloses
+      personal data when you use the MindLockrX mobile application and related VPN access
+      services.
+    </p>
+
+    <div class="note">
+      This policy is written for the MindLockrX mobile application as it currently operates.
+      The mobile app provides authenticated WireGuard VPN access with either full-tunnel or
+      split-tunnel routing. The mobile app does not perform posture checks, does not perform
+      application blocking, and does not perform SSL/TLS interception or MITM decryption.
+    </div>
+
+    <h2>1. Company Information</h2>
+    <p>
+      MindLockrX is provided by BFS &#304;&#199; DENET&#304;M E&#286;&#304;T&#304;M F&#304;NANSAL VE
+      KURUMSAL Y&#214;NET&#304;M DANI&#350;MANLI&#286;I A.&#350;.
+    </p>
+    <p>
+      Address: Kocatepe, Bay&#305;nd&#305;r-2 Sk. No:59 D:2, 06420 &#199;ankaya/Ankara, Turkey
+    </p>
+    <p>
+      Contact email: <a href="mailto:support@mindlockrx.io">support@mindlockrx.io</a>
+    </p>
+
+    <h2>2. Scope</h2>
+    <p>
+      This Privacy Policy applies to the MindLockrX mobile app for iOS and Android, including
+      the authentication, control-plane, and VPN connection services required to deliver the app.
+    </p>
+
+    <h2>3. Data We Collect</h2>
+
+    <h3>3.1 Account and Authentication Data</h3>
+    <ul>
+      <li>Username</li>
+      <li>Email address associated with your account, where available</li>
+      <li>Password entered at sign-in</li>
+      <li>Multi-factor authentication code and related authentication state, where MFA is enabled</li>
+      <li>Authentication tokens generated after successful login</li>
+    </ul>
+
+    <h3>3.2 VPN Provisioning and Session Data</h3>
+    <ul>
+      <li>WireGuard public key generated for the client session</li>
+      <li>Session ID used to track the active VPN connection</li>
+      <li>Assigned internal VPN IP address</li>
+      <li>Selected VPN gateway identifier and WireGuard endpoint</li>
+      <li>Routing mode and routing parameters required for full-tunnel or split-tunnel operation</li>
+      <li>DNS settings required for the VPN session</li>
+      <li>Connection start time, disconnect time, and disconnect reason</li>
+      <li>Basic VPN connection status and tunnel health information</li>
+    </ul>
+
+    <h3>3.3 Device and Application Data</h3>
+    <ul>
+      <li>Device model</li>
+      <li>Mobile operating system and OS version</li>
+      <li>Platform type (for example, iOS or Android)</li>
+      <li>Application version</li>
+      <li>A device identity string derived from the device model, platform, and OS version</li>
+    </ul>
+
+    <h3>3.4 Network and Security Log Data</h3>
+    <ul>
+      <li>Request timestamps</li>
+      <li>Authentication and connection event logs</li>
+      <li>Source IP address seen by the authentication or control services</li>
+      <li>Error logs and operational diagnostics required to operate and secure the VPN service</li>
+    </ul>
+
+    <h3>3.5 Data Stored Locally on Your Device</h3>
+    <ul>
+      <li>Access token</li>
+      <li>Basic user profile data returned after login</li>
+      <li>Configured controller and authentication server addresses</li>
+      <li>Saved VPN session state needed to restore the in-app connection screen</li>
+    </ul>
+    <p>
+      This local data is stored using secure local storage provided by the mobile operating
+      system where supported.
+    </p>
+
+    <h2>4. Data We Do Not Collect Through the Mobile App</h2>
+    <p>
+      The current MindLockrX mobile app does <strong>not</strong> collect or transmit the following
+      categories of data as part of its mobile VPN flow:
+    </p>
+    <ul>
+      <li>Posture-check reports</li>
+      <li>Installed application inventory</li>
+      <li>Application blocking or application usage telemetry</li>
+      <li>Biometric posture or behavioral profiling data</li>
+      <li>Camera, microphone, contacts, SMS, call logs, or precise location data</li>
+      <li>Advertising ID</li>
+      <li>SSL/TLS MITM interception, content decryption, or user-installed inspection certificates</li>
+    </ul>
+
+    <h2>5. How We Use Data</h2>
+    <ul>
+      <li>To authenticate users and enforce account security</li>
+      <li>To provide WireGuard VPN connectivity</li>
+      <li>To assign VPN session identifiers and internal addresses</li>
+      <li>To route traffic according to full-tunnel or split-tunnel VPN configuration</li>
+      <li>To configure DNS and gateway information needed for the VPN connection</li>
+      <li>To detect service abuse, misuse, failures, and security incidents</li>
+      <li>To troubleshoot operational issues and improve reliability</li>
+      <li>To comply with legal obligations and respond to valid lawful requests</li>
+    </ul>
+
+    <h2>6. How VPN Traffic Is Handled</h2>
+    <p>
+      MindLockrX uses WireGuard to create a secure tunnel between your mobile device and the VPN
+      gateway selected for your session.
+    </p>
+    <ul>
+      <li>
+        In <strong>full-tunnel mode</strong>, network traffic from the device is routed through the
+        VPN according to the configuration provided for your session.
+      </li>
+      <li>
+        In <strong>split-tunnel mode</strong>, only configured destinations or routes are sent through
+        the VPN.
+      </li>
+    </ul>
+    <p>
+      The mobile app uses this routing information only to establish and maintain the VPN session.
+      The mobile app does not inspect or decrypt SSL/TLS traffic through MITM.
+    </p>
+
+    <h2>7. Legal Bases</h2>
+    <p>
+      Where required by applicable law, we process personal data on one or more of the following
+      bases:
+    </p>
+    <ul>
+      <li>Performance of a contract or the provision of requested services</li>
+      <li>Legitimate interests in operating, securing, and improving the service</li>
+      <li>Compliance with legal obligations</li>
+      <li>Consent, where consent is specifically required by law</li>
+    </ul>
+
+    <h2>8. How We Share Data</h2>
+    <p>We may share relevant data only as necessary with:</p>
+    <ul>
+      <li>Authentication infrastructure used to verify your credentials and MFA</li>
+      <li>Control-plane services that provision and manage VPN sessions</li>
+      <li>VPN gateway systems that need the session configuration to establish your WireGuard tunnel</li>
+      <li>Hosting, networking, security, and infrastructure service providers acting on our behalf</li>
+      <li>Professional advisers, auditors, or legal authorities where required by law</li>
+      <li>A successor entity in connection with a merger, acquisition, or transfer of all or part of the business</li>
+    </ul>
+    <p>
+      We do not sell your personal data and we do not use the mobile app for advertising profiling.
+    </p>
+
+    <h2>9. Data Retention</h2>
+    <p>
+      We retain data only for as long as reasonably necessary for the purposes described in this
+      policy, including service delivery, account security, troubleshooting, and legal compliance.
+    </p>
+    <ul>
+      <li>Local app data generally remains on your device until logout, reset, or app removal.</li>
+      <li>Authentication and VPN session records may be retained as needed for security, auditing, and support.</li>
+      <li>Operational and security logs may be retained for a limited period consistent with business and legal needs.</li>
+      <li>Backups may retain residual copies for a limited time before routine deletion.</li>
+    </ul>
+
+    <h2>10. Security</h2>
+    <p>
+      We use technical and organizational measures designed to protect personal data, including
+      encrypted transport for service communications, authenticated access controls, and secure
+      local storage where supported by the platform. No method of transmission or storage can be
+      guaranteed to be completely secure.
+    </p>
+
+    <h2>11. International Transfers</h2>
+    <p>
+      Your data may be processed in countries other than your country of residence, depending on
+      where our infrastructure, gateways, service providers, or business operations are located.
+      Where required, we use appropriate safeguards under applicable law.
+    </p>
+
+    <h2>12. Your Rights</h2>
+    <p>
+      Subject to applicable law, you may have the right to request access to, correction of,
+      deletion of, restriction of, or objection to the processing of your personal data. You may
+      also have the right to request portability of certain data and to withdraw consent where
+      processing is based on consent.
+    </p>
+    <p>
+      To make a request, contact us at
+      <a href="mailto:support@mindlockrx.io">support@mindlockrx.io</a>.
+    </p>
+
+    <h2>13. Children&apos;s Privacy</h2>
+    <p>
+      The service is not intended for children under the age required by applicable law to provide
+      valid consent. We do not knowingly collect personal data from children in violation of
+      applicable law.
+    </p>
+
+    <h2>14. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. If we make material changes, we will
+      update the &quot;Last updated&quot; date and, where required, provide additional notice through the app
+      or other appropriate channels.
+    </p>
+
+    <h2>15. Contact</h2>
+    <p>
+      If you have questions about this Privacy Policy or want to exercise your rights, contact:
+    </p>
+    <p>
+      BFS &#304;&#199; DENET&#304;M E&#286;&#304;T&#304;M F&#304;NANSAL VE KURUMSAL Y&#214;NET&#304;M
+      DANI&#350;MANLI&#286;I A.&#350;<br>
+      Kocatepe, Bay&#305;nd&#305;r-2 Sk. No:59 D:2, 06420 &#199;ankaya/Ankara, Turkey<br>
+      <a href="mailto:support@mindlockrx.io">support@mindlockrx.io</a>
+    </p>
+  </main>
+</body>
+</html>
